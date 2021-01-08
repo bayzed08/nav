@@ -1,0 +1,26 @@
+nav {
+    height: 50px;
+    background-color: gainsboro;
+    border: 2px solid green;
+    line-height: 26px;
+    font-size: 20px;
+}
+
+nav li {
+    list-style: none;
+    float: left;
+    /* border: 2px solid red; */
+    padding: 10px;
+}
+
+nav li:hover {
+    background-color: gray;
+    color: antiquewhite;
+    font-size: 22px;
+    transition: 2s;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bolder;
+}
